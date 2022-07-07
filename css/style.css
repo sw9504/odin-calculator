@@ -6,3 +6,40 @@ body {
 .logo {
     width: 200px;
 }
+
+.keys {
+    display: flex;
+    padding: 20px;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: rgb(165, 160, 160);
+    width: 400px;
+    height: 450px;
+    border: 2px solid white;
+    border-radius: 25px;
+}
+
+.key {
+    background-color: black;
+    border-radius: 25px;
+    color: white;
+    text-align: center;
+    line-height: 10px;
+    font-size: 18px;
+    width: 80px;
+    height: 80px;
+    margin: 5px;
+}
+
+
+
+.key.big2 {
+    width: 260px;
+    height: 80px;
+}
+
+.key:hover{
+    background-color:darkgreen
+}
