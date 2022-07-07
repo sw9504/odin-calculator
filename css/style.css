@@ -16,7 +16,7 @@ body {
     flex-wrap: wrap;
     background-color: rgb(165, 160, 160);
     width: 400px;
-    height: 450px;
+    height: 550px;
     border: 2px solid white;
     border-radius: 25px;
 }
@@ -26,20 +26,35 @@ body {
     border-radius: 25px;
     color: white;
     text-align: center;
-    line-height: 10px;
+    line-height: 20px;
     font-size: 18px;
     width: 80px;
     height: 80px;
     margin: 5px;
 }
 
+.key:hover{
+    background-color:darkgreen
+}
 
-
-.key.big2 {
+.key.big {
     width: 260px;
     height: 80px;
 }
 
-.key:hover{
-    background-color:darkgreen
+.display {
+    background-color: darkolivegreen;
+    border: 3px solid black;
+    color: black;
+    font-size: 28px;
+    line-height: 25px;
+    text-align: right;
+    border-radius: 30px;
+    width: 340px;
+    height: 80px;
+    margin-bottom: 20px;
+}
+
+p {
+    margin-right: 30px;
 }
